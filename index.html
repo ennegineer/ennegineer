@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Enne Progress</title>
-        <link rel="stylesheet" href="n.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -12,99 +13,82 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     </head>
     <body>
-    <!-- Header -->
-    <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
-        <img class="w3-image" src="header.png" alt="Hexagon Header" style="width:auto;">
-        <div class="w3-display-middle w3-padding-large w3-border w3-wide accent w3-center">
-        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">ENNEGINEER</h1>
-        <h5 class="w3-hide-large" style="white-space:nowrap">ENNEGINEER</h5>
-        <h4 class="w3-hide-medium w3-hide-small">MAKER OF THINGS</h4>
-        </div>
-        
-        <!-- Navbar (placed at the bottom of the header image) -->
-        <div class="w3-bar button-bg w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-        <a href="#" class="w3-bar-item w3-button">Home</a>
-        <a href="#about" class="w3-bar-item w3-button">About</a>
-        <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-        <a href="#art" class="w3-bar-item w3-button">Art</a>
-        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-        </div>
-    </header>
+      <!-- header -->
+      <div class="top-bar">
+        <p class="hf">Ennegineer &#x2B22;</p>
+        <div>
+          <a style="margin-left: 0.75rem" href="projects.html">Projects</a>  
+        <a style="margin-left: 0.75rem" href="#">Contact</a>
+      </div>
+      </div>
+      <br><br>
+      <!-- content -->
+      <div class="content">
+          <div class="blue header">&#x2B22;Hello World</div>
+          <div class="contentblock">
+            <img src="tealprofile.png" style="height:100px; border-radius:50%"><p>
+            Hello! My name is Enne. I am a data engineer living in Southern California. 
+              <br><br>
+              I have the sweetest, dirtiest cat on the planet. <img src="makhs.png" style="height:2em">
+            </p>
+          </div>
+          <br><br>
+          <div class="blue header">&#x2B22;Background & Education</div>
+            <div class="contentblock">
+              <p>I began my studies in architecture, switching my major a year and a half later to architectural engineering. I graduated from Jefferson University (then Philadelphia University) with a <strong>Bachelor of Science in Engineering</strong>, with a minor in foundational design, in 2014. </p><br>
+              <p>After college, I moved from my home state to Northern Virginia, working for a temp agency in Washington, DC and solving engineering homework on Fiverr while looking for engineering jobs. Within a month, the temp agency placed me at a trade association for a two-day assignment helping input data into an employee database. After the first day, I was asked to stay a week. After the third day, I was asked to stay the month. During my time temping at the association, I took the Fundamentals of Engineering exam and finally <strong>earned my EIT designation</strong> in 2016. A few months later, I was hired on full-time as the <em>database specialist</em>, where I continued up the ranks to <em>senior manager of data systems</em>.</p><br>
+              <p>Over the course of 7 years at the association, I honed my HTML skills learned in my teen years and developed working knowledge of SQL. I wanted to be more efficient in my job, so I enrolled in a <strong>data analytics bootcamp at University of California Irvine</strong>.</p>
 
-    <!-- Navbar on small screens -->
-    <div class="w3-center button-bg w3-padding-16 w3-hide-large w3-hide-medium">
-        <div class="w3-bar button-bg">
-        <a href="#" class="w3-bar-item w3-button">Home</a>
-        <a href="#about" class="w3-bar-item w3-button">About</a>
-        <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-        <a href="#art" class="w3-bar-item w3-button">Art</a>
-        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-        </div>
-    </div>
-    <!-- Page content -->
-    <p>
-      <br />
-    </p>
-    <div class="w3-content w3-padding-large w3-margin-top booty" id="about">
-        <h2>About Me</h2>
-        <p>My name is Enne. Born on the East coast but now planted in Southern California. I'm a structural engineer by education, a database manager by day, and a dabbler in many creative outlets by night. </p>
-        <h3>Personal Interests</h3>
-        <p>I enjoy plants and nature (hikes and yes, long walks on the beach) and the company of my cat. I love to travel and see new places.</p>
-        <h3>Technology</h3>
-        <p>My education taught me to be a problem solver, and my current job helped me realize a love for structured data. I'm currently doing a data analytics bootcamp.</p>
-        <p><i class="devicon-bash-plain icons"></i> Bash<br />
-        <i class="devicon-git-plain"></i> Git<br />
-        <i class="devicon-github-original"></i> GitHub<br />
-        <i class="devicon-gitlab-plain"></i> GitLab<br />
-        <i class="devicon-jupyter-plain-wordmark"></i> Jupyter<br />
-        <i class="devicon-pandas-original"></i> Pandas<br />
-        <i class="devicon-python-plain"></i> Python<br />
-        <i class="devicon-r-plain"></i> R<br />
-        <i class="devicon-rstudio-plain"></i> RStudio<br />
-        <i class="devicon-microsoftsqlserver-plain"></i> Microsoft SQL Server<br />
-        <i class="devicon-vscode-plain"></i> VSCode <br />
-
-        </p>
-    </div>
-    <p>
-      <br />
-    </p>
-    <div class="w3-content w3-padding-large w3-margin-top booty" id="games">
-        <h2>Projects</h2>
-      <p>Soon I'll be posting my Python projects and games. Check it out here!
-          <br /><br />
-          
-        Soon... I hope!</p>
-      <!-- <img src="/w3images/ocean.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
-      <img src="/w3images/ocean2.jpg" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
-      <img src="/w3images/falls2.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
-      <img src="/w3images/mountainskies.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
-      <img src="/w3images/mountains2.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500"> -->
-    </div>
-    <p>
-      <br />
-    </p>
-    <div class="w3-content w3-padding-large w3-margin-top booty" id="art">
-        <h2>Art</h2>
-        <!-- Images (art) -->
-        <p>I make things. My favorite medium is either acrylic paint, or cross stitching.
-            <br /><br />
-            
-            Check out my art on Instagram! <a href="https://instagram.com/ennegineer" target="_blank" class="link">@ennegineer</a></p>
-    </div>
-     <!-- Contact -->
-  <!-- <div class="button-bg w3-padding-large w3-padding-32 w3-margin-top" id="contact">
-    <h3 class="w3-center">Contact</h3>
-    <hr>
-    <p>Hello my name is enne and this is a run on sentence about cats and fun and cake and cookies and a cat is talking to me right now and I need this to be a large block of text.</p>
-  </div> -->
-  <p>
-    <br />
-  </p>
+                
+                <p></p>
+            </div>
+            <br><br>
+            <div class="blue header">&#x2B22;Knowledge</div>
+            <div class="contentblock">
+              <p>
+                <p>My education taught me to be a problem solver and my current job helped me realize a love for structured data. I'm currently doing a data analytics bootcamp to be more efficient at coding and problem solving.</p>
+                <br>
+                <div style="display:flex; justify-content: space-between; margin-left: 4em; margin-right: 6em">
+                <p><strong>Languages</strong><br> 
+                <i class="devicon-css3-plain"></i> CSS<br>
+                <i class="devicon-html5-plain"></i> HTML<br>
+                <i class="devicon-markdown-original"></i> Markdown<br>
+                <i class="devicon-matlab-plain"></i> Matlab<br>
+                <i class="devicon-python-plain"></i> Python<br>
+                <i class="devicon-r-plain"></i> R<br>
+                <br> 
+              </p>
+              <p><strong>IDEs and Software</strong><br>
+                <i class="devicon-jupyter-plain-wordmark"></i> Jupyter<br>
+                <i class="devicon-microsoftsqlserver-plain"></i> Microsoft SQL Server<br>
+                <i class="devicon-photoshop-plain"></i> Photoshop <br>
+                <i class="devicon-postgresql-plain"></i> PostgreSQL<br>
+                <i class="devicon-rstudio-plain"></i> RStudio<br>
+                <i class="devicon-vscode-plain"></i> VSCode <br>
+              </p>
+              
+            </div>
+              <div style="display:flex; justify-content: space-between; margin-left: 4em; margin-right: 6em">
+              <p><strong>DevOps / Version Control Tools</strong><br>
+                <i class="devicon-bash-plain icons"></i> Bash<br>
+                <i class="devicon-git-plain"></i> Git<br>
+                <i class="devicon-github-original"></i> GitHub<br>
+                <i class="devicon-gitlab-plain"></i> GitLab<br>
+                <br>
+              </p>
+              <p><strong>Libraries & Frameworks</strong><br>
+                <i class="devicon-flask-original"></i> Flask<br>
+                <i class="devicon-numpy-original"></i> NumPy<br>
+                <i class="devicon-pandas-original"></i> Pandas<br>
+                <i class="devicon-sqlalchemy-plain"></i> SQLAlchemy<br>
+              </p>
+            </div>
+            </div>            
+          </div>
+          <br><br>
+      <!-- footer -->
   <div class="footer">
-    <p>© 2021. Powered by caffeine and naps.</p>
+    <p class="hf">© 2022. Powered by caffeine and naps. &#x2B22;</p>
   </div>
-<!-- End page content -->
-</div>
     </body>
 </html>
