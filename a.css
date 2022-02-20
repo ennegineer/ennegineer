@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Dosis', sans-serif;
+    background-color: #24242D;
+    color: #63F8F8;
+  }
+  
+  h1,h4,h5 {
+      color: #fff;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1em;
+  }
+  
+  h2 {
+      color: #940A4F;
+      font-family: 'Press Start 2P', cursive;
+  }
+  
+  h3 {
+    color: #940A4F;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 105%;
+  }
+  icons {
+    font-size:22px;
+  }
+
+/* Style the header */
+.header {
+    grid-area: header;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+/* .accent{color:#fff;} */
+.button-bg{background-color:#2D2D38;border:none;color:#FB376A;font-family: 'Dosis', sans-serif;}
+.link{color:#FB376A;}
+.link:hover{color:#940A4F;}
+
+/* responsive */
+@media (min-width:601px){.col.m1{width:8.33333%}.col.m2{width:16.66666%}.col.m3,.quarter{width:24.99999%}.col.m4,.third{width:33.33333%}
+.col.m5{width:41.66666%}.col.m6,.half{width:49.99999%}.col.m7{width:58.33333%}.col.m8,.twothird{width:66.66666%}
+.col.m9,.threequarter{width:74.99999%}.col.m10{width:83.33333%}.col.m11{width:91.66666%}.col.m12{width:99.99999%}}
+@media (min-width:993px){.col.l1{width:8.33333%}.col.l2{width:16.66666%}.col.l3{width:24.99999%}.col.l4{width:33.33333%}
+.col.l5{width:41.66666%}.col.l6{width:49.99999%}.col.l7{width:58.33333%}.col.l8{width:66.66666%}
+.col.l9{width:74.99999%}.col.l10{width:83.33333%}.col.l11{width:91.66666%}.col.l12{width:99.99999%}}
+.rest{overflow:hidden}.stretch{margin-left:-16px;margin-right:-16px}
+.content,.auto{margin-left:auto;margin-right:auto}
+.content{max-width:980px}
+.wauto{max-width:1140px}
+.cell-row{display:table;width:100%}
+.cell{display:table-cell}
+.cell-top{vertical-align:top}.cell-middle{vertical-align:middle}
+.cell-bottom{vertical-align:bottom}
+.hide{display:none!important}.show-block,.show{display:block!important}
+.show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.auto{max-width:95%}}
+@media (max-width:600px){.modal-content{margin:0 10px;width:auto!important}
+.modal{padding-top:30px}
+.dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content{position:relative}	
+.hide-small{display:none!important}.mobile{display:block;width:100%!important}
+.bar-item.mobile,.dropdown-hover.mobile,.dropdown-click.mobile{text-align:center}
+.dropdown-hover.mobile,.dropdown-hover.mobile .btn,.dropdown-hover.mobile .button,.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button{width:100%}}
+@media (max-width:768px){.modal-content{width:500px}.modal{padding-top:50px}}
+@media (min-width:993px){.modal-content{width:900px}
+.hide-large{display:none!important}
+.sidebar.collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.hide-medium{display:none!important}}
+@media (max-width:992px){.sidebar.collapse{display:none}.main{margin-left:0!important;margin-right:0!important}.auto{max-width:100%}}
+
+
+
+
+
+.image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.center{text-align:center}
+.bar{width:100%;overflow:hidden}
+.hide-large{display:none!important}
+.bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.bar-block .bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.bar-block .center .bar-item{text-align:center}
+/* .content{max-width:980px} */
+.border{border:1px solid #fff!important}
+.padding-large{padding:12px 24px!important}
+.padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.padding-32{padding-top:32px!important;padding-bottom:32px!important}
+.wide{letter-spacing:4px}
+.display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.round{border-radius:4px}
+.display-container{position:relative}
+.margin-top{margin-top:16px!important}
+
+.xxxlarge{font-size:48px!important}
+
+/* Controls my menu buttons */
+.button:hover{color:#fff!important;}
+.transparent,.hover-none:hover{background-color:transparent!important}
+.hover-none:hover{box-shadow:none!important}
+
+/* Style the footer */
+.footer {
+    grid-area: footer;
+    background-color: #2D2D38;
+    padding: 5px;
+    text-align: center;
+  }
+
+  p {
+	font-family: 'Dosis', sans-serif;color:#63F8F8;
+	}
+
+  .booty {
+    grid-area: footer;
+    background-color: #2D2D38;
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
