@@ -12,11 +12,15 @@ I'm currently in a data analytics bootcamp to be a more efficient human.
  &emsp; &emsp; &emsp; Git<br />
  &emsp; &emsp; &emsp; GitHub &emsp; &emsp; *you are here, yeh?* <br />
  &emsp; &emsp; &emsp; GitLab<br />
- &emsp; &emsp; &emsp; Jupyter<br />
- &emsp; &emsp; &emsp; Pandas<br />
- &emsp; &emsp; &emsp; Python<br />
+ &emsp; &emsp; &emsp; Flask<br />
+ &emsp; &emsp; &emsp; Python (Pandas, Matplotlib)<br />
  &emsp; &emsp; &emsp; R<br />
- &emsp; &emsp; &emsp; RStudio<br />
+ &emsp; &emsp; &emsp; SQL<br />
+ &emsp; &emsp; &emsp; SQLAlchemy<br />
+ &emsp; &emsp; &emsp; Jupyter notebook<br />
+ &emsp; &emsp; &emsp; PostgreSQL<br />
  &emsp; &emsp; &emsp; Microsoft SQL Server<br />
+ &emsp; &emsp; &emsp; MongoDB<br />
+ &emsp; &emsp; &emsp; RStudio<br />
  &emsp; &emsp; &emsp; VSCode<br />
 
