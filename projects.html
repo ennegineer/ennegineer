@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enne Progress</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/site.webmanifest">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    </head>
+    <body>
+      <!-- header -->
+      <div class="content">
+      <div class="top-bar">
+            <a href="index.html" class="hf" style="font-weight: normal; display:flex">
+            <div style="margin-right: 0.5rem">Ennegineer</div>
+            <div>&#x2B22;</div>
+        </a>
+        <div>
+          <a style="margin-left: 0.75rem" href="projects.html">Projects</a>  
+        <a style="margin-left: 0.75rem" href="#">Contact</a>
+      </div>
+      </div>
+      <br><br>
+      <!-- content -->
+      <div class="blue header">&#x2B22;Weather API</div>
+      <div class="contentblock">
+          <p>In this project I created a python script to visualize the weather of over 500 cities using the <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a>. After creating a list of latitudes and longitudes for randomized cities near the equator, I then created a series of scatter plots to look for relationships between latitude and temperature, humidity, cloudiness and wind speed.</p><br>
+          <p><strong>Observations</strong>
+            <ul>
+                <li>There is a strong correlation between a city's latitude and the maximum temperature. It is generally hotter as latitude approaches zero from either direction.</li>
+                <li>There is no clear correlation between a city's latitude and the percentage of cloudiness or wind speed.</li>
+                <li>It is hard to tell from the scatter plots if there is much correlation between a city's latitude and its humidity.</li>
+            </ul>
+            Next, the Google Places API was used to create a heat map of the cities in the list and their humidity.<br>
+            <a href="https://github.com/ennegineer/06-pythonAPIHW" target="_blank">View on GitHub.</a>
+          </p>
+        </div>
+        <br><br>
+        <div class="blue header">&#x2B22;Logic Puzzle</div>
+        <div class="contentblock">
+            <p>This logic puzzle is sourced from <a href="https://adventofcode.com/2021/day/8" target="_blank">Advent of Code 2021</a>. The scenario is that we are navigating ocean depths in a submarine and that we have four-digit, seven-segment displays that are malfunctioning. Each segment in the display is powered with wires labeled with a letter a through g. Using logic and any coding language preferred, we must decipher what each of four digits would be on our display, given 10 unique signal patterns followed by our four final display combinations. There are 200 codes to crack in the dataset, so brute force is not a feasible option.</p><br>
+            <p>I solved this puzzle in Python, first reading the input file with csv.reader and sorting each input value alphabetically. Then, knowing that certain digits have a unique number of segments illuminated on a seven-segment display, we could solve for those digits, then use signal lengths and list subsets to solve for the remaining segments in the remaining digits to discover the four-digit output value.</p>
+            <a href="https://github.com/ennegineer/AdventOfCode2021/tree/main/Day8" target="_blank">View on GitHub.</a>
+        </div>
+        <br><br>
+    </div>
+</div>
+      <!-- footer -->
+  <div class="footer">
+    <p class="hf">© 2022. Powered by caffeine and naps. &#x2B22;</p>
+  </div>
+    </body>
+</html>
