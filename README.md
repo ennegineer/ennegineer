@@ -6,7 +6,7 @@ I manage a database for a trade association. That entails administering access, 
 
 
 ## ![icon](./icon/favicon-32x32.png) What I do for fun
-I completed a data analytics bootcamp in May 2022 in an effort to be more efficient with programming languages.
+I completed a data analytics bootcamp in May 2022 in an effort to be more efficient with programming languages. Most recently, I've been learning Svelte hands-on as well as familiarizing with Docker and Kubernetes via video learning courses.
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![icon](./icon/favicon-16x16.png) Things I've learned (and continue to learn and practice):
  &emsp; &emsp; &emsp; Bash/Git<br />
  &emsp; &emsp; &emsp; VSCode, Jupyter notebook, Google Colaboratory<br />
