@@ -6,7 +6,7 @@ I'm a data engineer for a trade association. That entails designing data archite
 
 
 ## ![icon](./icon/favicon-32x32.png) What I do for fun
-I completed a data analytics bootcamp in May 2022 in an effort to be more efficient with programming languages. More recently, I've been learning Svelte hands-on, as well as familiarizing with Docker and Kubernetes via video learning courses.
+I completed a data analytics bootcamp in May 2022 in an effort to be more efficient with programming languages. More recently, I've been learning Svelte, SvelteKit, and Chalice, as well as familiarizing with Docker and Kubernetes via video learning courses.
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![icon](./icon/favicon-16x16.png) Things I've learned (and continue to learn and practice):
  &emsp; &emsp; &emsp; Bash/Git<br />
  &emsp; &emsp; &emsp; VSCode, Jupyter notebook, Google Colaboratory<br />
@@ -16,7 +16,7 @@ I completed a data analytics bootcamp in May 2022 in an effort to be more effici
  &emsp; &emsp; &emsp; Webscraping and API interactions with Python (flask, beautifulsoup, sqlalchemy)<br />
  &emsp; &emsp; &emsp; Big data handling with Spark and with Google BigQuery, AWS, Azure services<br />
  &emsp; &emsp; &emsp; Web interactions with JavaScript (d3, plotly, leaflet) <br />
- &emsp; &emsp; &emsp; Databases (PostgreSQL, MongoDB, Microsoft SQL Server)<br />
+ &emsp; &emsp; &emsp; Databases (PostgreSQL, MongoDB, DynamoDB, Microsoft SQL Server)<br />
  &emsp; &emsp; &emsp; Data visualization in Tableau, PowerBI<br />
 
 
